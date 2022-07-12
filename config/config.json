@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fast-filters-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fastFilters/FastFiltersWebPart.js",
+          "manifest": "./src/webparts/fastFilters/FastFiltersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FastFiltersWebPartStrings": "lib/webparts/fastFilters/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

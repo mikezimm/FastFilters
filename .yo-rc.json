@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "fast-filters",
+    "libraryId": "14ae0aee-bf5d-4763-849f-825e75948d25",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "fast-filters",
+    "solutionShortDescription": "fast-filters description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fast-filters-client-side-solution",
+    "id": "14ae0aee-bf5d-4763-849f-825e75948d25",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fast-filters description"
+      },
+      "longDescription": {
+        "default": "fast-filters description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fast-filters Feature",
+        "description": "The feature that activates elements of the fast-filters solution.",
+        "id": "9864c7a4-0257-4967-9281-29feeb6a117c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fast-filters.sppkg"
+  }
+}
